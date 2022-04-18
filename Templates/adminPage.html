@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../Static/Css/adminStyle.css">
+
+    <title>Admin page</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navBgColor" id="navbar">
+        <div class="container-fluid">
+
+            <h3 class="navbar-brand" href="#" style="font-size: x-large; text-decoration: underline;">Support Ticket
+                System</h3>
+
+
+
+
+
+            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-list-items" href="#">Issue</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-list-items" href="#">New Issue</a>
+                    </li>
+
+
+                    <!-- dropdown link -->
+                    <div class="dropdown collapse navbar-collapse ">
+                        <a class=" dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                            data-bs-toggle="dropdown" aria-expanded="false">Department</a>
+
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Hardware</a></li>
+                            <li><a class="dropdown-item" href="#">HR</a></li>
+                            
+                        </ul>
+                    </div>
+
+
+                </ul>
+            </div>
+
+
+
+            <div id="adminText">
+                <h3>Admin Portal</h3>
+            </div>
+
+            <div>
+                <h6 class="nav-list-items ">Logged in:</h6><br>
+                <a class="nav-list-items " href="#">Sign Out</a>
+            </div>
+        </div>
+    </nav>
+    <div class="float-container ">
+
+        <div class="text-center container inner-container ">
+            <h6 class="main-text-Info">Information</h6> <br>
+            <label for="userid" class="theLabels" id="userIdInp">UserId:</label>
+            <input type="text" id="Userid" name="Userid" class="theInputs"> <br><br>
+
+            <label for="fname" id="userFnameInp" class="theLabels">First name:</label>
+            <input type="text" id="fname" name="fname" class="theInputs"><br><br>
+
+            <label for="lname" id="userLnameInp" class="theLabels">Last name: </label>
+            <input type="text" id="lname" name="lname" class="theInputs"><br><br>
+
+            <label for="Email" id="userEmailInp" class="theLabels">Email: </label>
+            <input type="email" id="Email" name="Email" class="theInputs"><br><br>
+
+            <label for="type" class="theLabels" id="userTypeInp">Type: </label>
+            <select name="Select_Type" id="select_type" class="theInputs">
+                <option>Select--</option>
+                <option value="option1">User</option>
+                <option value="option2">Admin</option>
+            </select><br><br>
+
+            <button type="button" id="CreateButton">Create</button>
+        </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+</body>
+
+</html>

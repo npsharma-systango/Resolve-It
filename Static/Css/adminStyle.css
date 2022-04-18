@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+
+*{
+    text-decoration: none;
+    font-family: 'Akaya Kanadaka', 'cursive' ;
+   
+}
+
+.navbar-brand
+{
+
+    color:white;    
+}
+
+#navbar
+{
+ z-index: 3;
+ overflow: hidden;
+ position: fixed;
+ width: 100%;
+top: 0;
+
+
+
+}
+
+.navBgColor
+{
+
+background-color:rgb(211, 63, 63);
+
+}
+
+
+.nav-list-items, nav-item, navbar-nav
+{
+     color:white;
+     text-decoration: none;
+     margin-right: 1rem;
+     font-size: 120%;
+      display: inline-block;
+     
+    
+}
+
+ul li
+{
+
+    display:inline-block;
+    text-decoration: none;
+  
+
+}
+
+
+
+.float-container{
+    width:auto;
+    height:auto;
+    padding: 20px;
+    margin-top: 20px;
+    margin:0 ;
+    /* border: 2px solid rgb(12, 12, 12); */
+    background-image: url("../Images/BackGrounds/adminBackgroundImage.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;    
+    height: 100vh;
+  
+    /* z-index: 2; */
+    /* position: relative;*/
+    overflow: hidden;
+
+} 
+.inner-container{
+
+    margin-top:10% ;
+  
+}
+
+.main-text-Info{
+
+    color:white;
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+
+.theLabels
+{
+  
+    display: block;
+    margin-left: 30%;
+    float: left;
+    padding: 5px;
+    width: 200px;
+    color:white;
+ 
+}
+
+.theInputs
+  
+{
+    display: block;
+    margin-left: 5%;
+    float:left;
+    padding: 5px;
+    border-radius: 4px;
+    
+}
+
+#userLnameInp,#userEmailInp,#userIdInp,#userFnameInp,#userTypeInp
+{
+
+    font-size: 1.5em;
+}
+
+#adminText
+{
+padding-right: 35%;
+color:white;
+
+}
+
+#CreateButton{
+
+width:80px;
+font-size: 20px;
+}
+
+.dropdown-toggle{
+color:white;
+text-decoration: none;
+
+
+display: inline-block;
+    overflow: visible;
+    /* z-index: 1000; */
+    position: inherit;
+   
+
+}
+
