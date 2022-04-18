@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../Css/issueTicket.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div>
+        <label>Filters</label>
+        <select name="filter" id="filter">
+            <option value="prioity"></option>
+        </select><br>
+           
+    </div>
+    <div id="wrapper">
+        <!-- <div id="ticket"> -->
+            <!-- <h3 id="subjectHeading"></h3> -->
+            
+        <!-- </div> -->
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Subject</th>
+                    <th>Department</th>
+                    <th>Status</th>
+                    <th>Priority</th>
+                    <th>Assignee</th>
+                    <th>Created By</th>
+                    
+                    
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+
+            </tbody>
+        </table>    
+
+
+    </div>
+    
+    <script src="../JS/issueTicket.js"></script>
+</body>
+
+</html>
