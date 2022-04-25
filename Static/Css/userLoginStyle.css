@@ -5,12 +5,6 @@
     font-family: 'Akaya Kanadaka', 'cursive' ;
    
 }
-body{
-    width: 100vw;
-    height: 100vh;
-    overflow-x: hidden;
-    overflow-y: auto;
-}
 
 .navbar-brand
 {
@@ -20,12 +14,11 @@ body{
 
 #navbar
 {
-    position: fixed;
-    z-index: 300;
+    z-index: 3;
     overflow: hidden;
+    position: fixed;
     width: 100%;
-    top: 0px;
-    left: 0px;
+    top: 0;
 }
 
 .nav-item
@@ -38,12 +31,11 @@ body{
 
 .float-container{
 
-    height: auto;
+    height: 100vh;
     padding: 20px;
     background-color: #9A616D;
     overflow:hidden;
-    z-index: 200;
-    position:sticky;
+    z-index: 2;
 
 } 
 
@@ -53,8 +45,8 @@ body{
     background-color:white;
     height:75%;
     border-radius: 20px;   
- 
-    position: sticky;
+    z-index: 2;
+    position: relative;
     overflow:auto;
 } 
 
@@ -91,7 +83,7 @@ body{
     border:1px solid black;
 }
 
-#Userid,#fname,#Lname,#Email,#userType
+#Email, #Password, #userType
 {
 
     font-size: 1.5em;
@@ -123,8 +115,7 @@ body{
 
  }
 
-
- @media only screen and (max-width: 1000px) {
+ @media only screen and (max-width:1000px) {
     .navbar-nav {
       display:none;
     }

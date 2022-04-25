@@ -16,11 +16,11 @@
 
 #navbar
 {
- z-index: 3;
- overflow: hidden;
+ z-index: 300;
+ overflow: auto;
  position: fixed;
  width: 100%;
-top: 0;
+
 
 
 
@@ -72,14 +72,16 @@ position: inherit;
 }
 
 
-.float-container{
-    width:95vw;
-    height:85vh;
+.container{
+    width:auto;
+    height:auto;
     padding: 20px;
     margin-top:5%;
     margin-left: 2%;
-    overflow: hidden;
+    overflow: auto;
     box-shadow: 2px 2px 2px grey;
+    z-index:200;
+    position:sticky;
   
   
 }
@@ -90,7 +92,7 @@ position: inherit;
    height: 8%;
    padding: 2px 0 0 8px;
    font-size: 25px;
-
+margin: auto;
 }
 
 .inner-container
@@ -99,10 +101,10 @@ position: inherit;
     width:auto;
     height:auto;
     border:1px solid rgb(175, 172, 172);
-    margin-top: 0.5%;
-    
+    /* margin-top: 0.5%; */
     margin-left: 0.5%; 
     background-color: rgb(231, 239, 250); 
+    overflow: auto;
 
 } 
 
@@ -112,3 +114,6 @@ position: inherit;
     padding-right:100px;
     padding-left: 40px; 
 }
+
+
+

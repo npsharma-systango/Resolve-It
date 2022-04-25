@@ -14,7 +14,7 @@
     color:white;    
 }
 
-#navbar
+/* #navbar
 {
  z-index: 3;
  overflow: hidden;
@@ -24,7 +24,7 @@ top: 0;
 
 
 
-}
+} */
 
 .navBgColor
 {
@@ -34,7 +34,7 @@ background-color:rgb(211, 63, 63);
 }
 
 
-.nav-list-items, nav-item, navbar-nav
+/* .nav-list-items, nav-item, navbar-nav
 {
      color:white;
      text-decoration: none;
@@ -43,7 +43,7 @@ background-color:rgb(211, 63, 63);
       display: inline-block;
      
     
-}
+} */
 
 ul li
 {
@@ -73,20 +73,21 @@ position: inherit;
 
 
 .float-container{
-    width:95vw;
-    height:85vh;
+    width:auto;
+    height:100vh;
     padding: 20px;
-    margin-top:5%;
-    margin-left: 2%;
-    overflow: hidden;
+    /* margin-top:5%; */
+    /* margin-left: 0.5%; */
+    overflow: auto;
     box-shadow: 2px 2px 2px grey;
+    background-color: #9A616D;
   
   
 }
 
 .header
 {
-   background-color: rgb(231, 239, 250); 
+   background-color:white; 
    height: 8%;
    padding: 2px 0 0 8px;
    font-size: 25px;
@@ -100,17 +101,19 @@ position: inherit;
     height:auto;
     border:1px solid rgb(175, 172, 172);
     margin-top: 0.5%;
-    
-    margin-left: 0.5%; 
-    background-color: rgb(231, 239, 250); 
+    /* margin-left: 0.5%;  */
+    background-color: white;
+    padding-bottom: 2%; 
 
 } 
 
 .inner-container-fields{
 
-    margin: 3%;
+    margin-top:3%;
+    margin-left: 2%;
    width: auto;
    height: auto;
+   overflow: auto;
 }
 
 .inner-container-fields
@@ -132,13 +135,17 @@ position: inherit;
 
   
 }
+.submitBtn{
 
-#submitButton{
-
-    background-color: black;
-    color: white;
-    margin-left: 40%;
+width:auto;
+height:fit-content;
+font-size: 30px;
+background-color: black;
+color: white;
+border-radius: 10px;
+margin-top: 1%;
 }
+
 
 .theInputs{
     
@@ -154,5 +161,11 @@ border-radius: 5px;
 }
 
 
+    /* form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+ */
 
 
