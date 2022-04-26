@@ -5,6 +5,7 @@
     font-family: 'Akaya Kanadaka', 'cursive' ;
    
 }
+
 body{
     width: 100vw;
     height: 100vh;
@@ -12,20 +13,20 @@ body{
     overflow-y: auto;
 }
 
-.navbar-brand
+
+/* .navbar-brand
 {
 
     color:white;    
-}
+} */
 
 #navbar
 {
-    position: fixed;
     z-index: 300;
-    overflow: hidden;
-    width: 100%;
-    top: 0px;
-    left: 0px;
+   
+    position: fixed;
+    width: 100vw;
+    top: 0;
 }
 
 .nav-item
@@ -38,24 +39,24 @@ body{
 
 .float-container{
 
-    height: auto;
+    height: 120vh;
     padding: 20px;
     background-color: #9A616D;
-    overflow:hidden;
+    overflow:auto;
     z-index: 200;
-    position:sticky;
+    position: sticky;
 
 } 
 
 .inner-container{
     
-    margin-top:2% ;
+    margin-top:3% ;
     background-color:white;
-    height:75%;
+    height:85%;
     border-radius: 20px;   
- 
-    position: sticky;
     overflow:auto;
+    z-index:100;
+    position:sticky;
 } 
 
 
@@ -77,7 +78,7 @@ body{
     width: 150px;
     color:black;
  
-}
+} 
 
 .theInputs
   
@@ -91,13 +92,13 @@ body{
     border:1px solid black;
 }
 
-#Userid,#fname,#Lname,#Email,#userType
+#Email, #Password, #userType
 {
 
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
- .nav-list-items, .nav-item
+ /* .nav-list-items, .nav-item
  {
     text-decoration: none;
     margin-right: 1rem;
@@ -110,7 +111,7 @@ body{
 
  .navbar-nav :hover{
      color:white;
- }
+ } */
 
  .createBtn{
 
@@ -123,8 +124,7 @@ body{
 
  }
 
-
- @media only screen and (max-width: 1000px) {
+ @media only screen and (max-width:1000px) {
     .navbar-nav {
       display:none;
     }
